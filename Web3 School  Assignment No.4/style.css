@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(217, 223, 233);
+}
+
+.main-container{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1200px;
+}
+.sub-container{
+    width: 80%;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    width: 350px;
+    height: 90vh;
+    background-color: #fff;
+    box-shadow: 17px 11px 25px -23px rgba(0, 0, 0, 0.75);
+}
+.illustration{
+    width: 100%;
+    border-radius: 1rem 1rem 0px 0px;
+    z-index: -0.5;
+}
+
+.card-title{
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(5, 5, 56);
+    padding-top: 1rem;;
+}
+
+.description{
+    color: rgb(121, 121, 230);
+    text-align: center;
+    margin-top: .7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.third-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.music-icon{
+    width: 15%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-subtitle{
+    font-weight: 900;
+    color: rgb(5, 5, 56);
+    margin-top: 3rem;
+    width: max-content;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.card-info{
+    font-weight: 500;
+    color: rgb(129, 129, 252);
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+}
+
+.card-button{
+    margin-top: 4rem;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: rgb(49, 35, 236);
+    margin-left: 3rem;
+    border: none;
+    text-decoration: none;
+}
+
+.card-button:hover{
+    color: rgb(129, 129, 252)
+}
+
+button{
+    cursor: pointer;
+}
+
+.bottom-buttons{
+    display: grid;
+}
+
+.lower-section{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    justify-self: center;
+    font-weight: 900;
+    border: none;
+    font-size: 0.8rem;
+    background-color: rgb(49, 35, 236);
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 3px 1px 9px -3px rgba(0, 0, 0, 0.75);   
+}
+
+.lower-section:hover{
+    background-color: rgb(129, 129, 252);
+}
+
+.cancel-button{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color:rgb(108, 108, 248);
+    border: none;
+    border-radius: 5rem;
+}
+
+.cancel-button:hover{
+    color: rgb(5, 5, 56);
+}
